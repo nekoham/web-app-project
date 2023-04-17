@@ -11,5 +11,8 @@ namespace WebAppProject.Models
         public string Password { get; set;}
         public string Email { get; set;}
         public int Rating { get; set;}
+
+        //Relationships
+        public Order Order { get; set;}
     }
 }

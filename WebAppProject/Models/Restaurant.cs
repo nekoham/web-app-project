@@ -7,5 +7,8 @@ namespace WebAppProject.Models
         [Key]
         public int RestaurantId { get; set; }
         public string RestaurantName { get; set; } 
+
+        //Relationships
+        public Order Order { get; set; }
     }
 }
