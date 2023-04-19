@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using WebAppProject.Data;
 
 namespace WebAppProject.Models
 {
@@ -7,6 +8,7 @@ namespace WebAppProject.Models
         [Key]
         public int RestaurantId { get; set; }
         public string RestaurantName { get; set; } 
+        public RestaurantList RestaurantList { get; set; }
 
         //Relationships
         public Order Order { get; set; }
