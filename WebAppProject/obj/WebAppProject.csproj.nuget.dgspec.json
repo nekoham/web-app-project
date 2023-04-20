@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[3.21.1, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
             "React.AspNet": {
               "target": "Package",
               "version": "[5.2.12, )"
